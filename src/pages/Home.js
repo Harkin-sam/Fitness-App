@@ -1,9 +1,17 @@
 import React,{useState} from 'react';
-import { Box } from '@material-ui/core';
+
+import HeroBanner from '../components/HeroBanner';
+import SearchExercises from '../components/SearchExercises';
+import Exercises from '../components/Exercises';
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <HeroBanner/>
+      <SearchExercises />
+      <Exercises />
+    </div>
+
   )
 }
 

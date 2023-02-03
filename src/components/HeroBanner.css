@@ -1,0 +1,77 @@
+
+  .Banner_Container{
+    position: relative;
+    padding: 20px;
+  }
+
+  .Banner_Container--P1{
+    color:#FF2625;
+    font-weight:600; 
+    font-size:26px;
+  }
+
+  .Banner_Container--P2{
+    font-weight: 700;
+    margin-bottom:23px;
+    margin-top:30px;
+    font-size: 44px;
+  }
+
+  .Banner_Container--P3{
+    font-size:22px;
+    line-height:35px;
+  }
+
+  .Banner_Container--P4{
+    font-weight:600;
+    color:#FF2625;
+    font-size: 200px;
+    display: block;
+    opacity: '0.1';
+   
+  }
+  
+  .Banner_div{
+
+  }
+
+  .Banner_div a{
+    margin-top: 45px;
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    background: #FF2625;
+    padding: 14px;
+    font-size: 22px;
+    text-transform: none;
+    color: white;
+    border-radius: 4px; 
+  }
+
+  .hero-banner-img{
+
+  }
+
+
+  @media screen and (max-width:480px){
+
+    .Banner_Container{
+        margin-top:70px;
+        margin-left:50px;
+    }
+     
+
+    .Banner_Container--P2{
+        font-size: 40px;
+    }
+}
+
+@media screen  and (max-width:768px){
+    
+    .Banner_Container{
+        margin-top:212px
+        
+    }
+
+   
+  }
