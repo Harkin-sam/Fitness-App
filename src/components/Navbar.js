@@ -5,18 +5,23 @@ import logo from '../assets/images/Logo.png';
 
 const Navbar = () => {
   return (
-    <nav className='Navbar_Container'>
-        <Link to ="/">
-        <img src={logo} alt ='logo' />
+    <nav>
+      <div className="nav-items">
+        <Link to ="/" className="nav-item">
+         <img src={logo} alt ='logo' />
         </Link>
+      </div>
 
-        <div className='.Navbar_Container--wrapper'>
-            
-        <Link to ="/" className='nav-link1'>Home</Link>
+      <div className="nav-items">
+        <Link to ="/" className="nav-item">Home</Link>
+      </div>
 
-        <a  href="#exercise">Exercises</a>
+      <div className="nav-items">
+        <div className="nav-item">
+          <a href="#exercise"> Exercises</a>
         </div>
-    </nav>
+      </div>
+  </nav>
     
   )
 }

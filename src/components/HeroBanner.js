@@ -1,35 +1,43 @@
-import React from 'react';
-import './HeroBanner.css'
+import React from "react";
+import "./HeroBanner.css";
+import { Fragment } from "react";
 
-
-import HeroBannerImage from '../assets/images/banner.png'
+import HeroBannerImage from "../assets/images/banner-3.jpg";
 
 function HeroBanner() {
   return (
-    <section className='Banner_Container'>
+    <Fragment>
+      <div className="banner_container">
 
-    <p className='Banner_Container--P1'>Fitness Club</p>
+        <div className="cols">
+          <div className="col col-left">
+            <div className="copy">
+              <div className="header"> Fitness Club</div>
+              <div className="sub-header">
+              Sweat, Smile <br /> And Repeat
+              </div>
 
-    <p className='Banner_Container--P2'>
-      Sweat, Smile <br />
-      And Repeat
-    </p>
+              <div className="info">
+                Check out out most effective exercises personalized for you
+              </div>
 
-    <p className='Banner_Container--P3'>
-      Check out the most effective exercises personalized to you
-    </p>
+              <button>
+              Explore Exercises
+              </button>
+              
+            </div>
+          </div>
 
-    <div className='Banner_div'>
-      <a href="#exercises" >Explore Exercises</a>
-    </div>
+          <div className="col col-right">
+            <div className="img-wrapper">
+                <img src={HeroBannerImage} alt="" />
+              </div>
+          </div>
+        </div>
 
-    <p className='Banner_Container--P4'>
-      Exercise
-    </p>
-
-    <img src={HeroBannerImage} alt="hero-banner" className="hero-banner-img" />
-  </section>
-  )
+      </div>
+    </Fragment>
+  );
 }
 
 export default HeroBanner;
@@ -37,3 +45,20 @@ export default HeroBanner;
 
 
 
+
+// for later usage
+{/* <div className="loader-text block">
+          <h1 className="loader-text "> amw-soon</h1>
+        </div>
+
+        <div className="revealer"></div>
+        <div className="pre-loader block">
+          <div className="loader-wrapper">
+            <div className="loader"></div>
+          </div>
+        </div> */}
+
+
+// image address : https://i.pinimg.com/736x/56/46/e5/5646e5409e224e143537ed0a144cdc56.jpg
+
+// https://i.pinimg.com/736x/f2/31/17/f231175cc4af23ccb0e07f3db7900397.jpg

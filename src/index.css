@@ -1,19 +1,20 @@
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,600,800&display=swap");
 
-
 * {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
   }
 
 
 body {
     font-family: 'Poppins';
-    background-color: #FFFAFB;
-    overflow: hidden;
+    /* background-color: #FFFAFB; */
+    width: 100%;
     min-height: 100vh;
+    overflow: hidden;
+    
   }
   
   
