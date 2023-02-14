@@ -1,0 +1,81 @@
+.Search-Exercises-container{
+    background: #ebe2d5;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.Search-Exercises-container h2{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'poppins';
+    font-size: 44px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.text-field{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.text-field input{
+    height: 56px;
+    font-size: 17px;
+    font-size: 700;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    width: 600px;
+    padding-left: 20px;
+    font-family: 'poppins';
+}
+
+.text-field input:focus{
+    outline: none;
+}
+
+
+.search-button{
+    height: 56px;
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    width: 140px;
+    border: none;
+    font-family: 'poppins';
+    border-radius: 0px 8px 8px 0px;
+    background-color:#FF2625;
+    color: #fff;
+}
+
+@media screen and (max-width:480px){
+    .Search-Exercises-container h2{
+        font-size: 30px;
+    }
+    .search-button{
+        height: 50px;
+        font-size: 14px;
+        width: 80px;
+    }
+}
+
+@media screen  and (max-width:768px){
+   
+    .search-button{
+        height: 50px;
+        font-size: 14px;
+        width: 100px;
+       
+    }
+
+    .text-field input{
+        height: 50px;
+        font-size: 17px;
+        border-radius: 8px 0px 0px 8px;
+        width: 450px;
+        padding-left: 20px;
+    }
+  }

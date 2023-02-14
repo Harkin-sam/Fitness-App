@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useState, Fragment} from 'react';
 
 import HeroBanner from '../components/HeroBanner';
 import SearchExercises from '../components/SearchExercises';
@@ -6,9 +6,10 @@ import Exercises from '../components/Exercises';
 
 function Home() {
   return (
-    <div>
+    <Fragment>
       <HeroBanner/>
-    </div>
+      <SearchExercises />
+    </Fragment>
 
   )
 }
